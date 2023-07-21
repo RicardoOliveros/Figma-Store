@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+
+.slider {
+    background-color: #ffc700;
+    border-bottom: 3px solid #000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 1pc;
+    overflow-x: scroll;
+
+}
+
+.cont {
+    width: 36pc;
+}
+
+.img3 {
+    width: 68pc;
+}
+
+.img11 {
+    width: 68pc;
+}
+
+.img6 {
+    position: absolute;
+    top: 33.5pc;
+    right: 1pc;
+    width: 11pc;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Aca van los estilos de las letras */
+
+
+.letras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4pc;
+}
+
+.contenedor {
+    text-align: center;
+    width: 70%;
+}
+
+.let {
+    font-family: 'Lexend', sans-serif;
+    font-size: 3.4pc;
+    font-weight: 700;
+}
+
+.let:hover {
+    color: rgb(180, 180, 169);
+    transition: all 0.8s ease-in-out;
+}
+
+.importante {
+    font-family: 'Lexend', sans-serif;
+    text-decoration: underline;
+    color: black;
+}
