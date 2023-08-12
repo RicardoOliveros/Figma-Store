@@ -5,6 +5,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Aca van los estilos del header */
 
 header {
